@@ -1,0 +1,36 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Compiled Java files
+*.class
+
+# Build directories
+out/
+target/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
