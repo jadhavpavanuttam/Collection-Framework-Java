@@ -1,3 +1,5 @@
+package com.collection;
+
 import java.util.Arrays;
 import java.util.IdentityHashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.FileHandling;
+package com.pavan.streamAPI.FileHandling;
 
 import java.io.File;
 import java.io.FileOutputStream;

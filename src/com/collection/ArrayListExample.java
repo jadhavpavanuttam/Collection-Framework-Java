@@ -1,4 +1,5 @@
-import javax.swing.*;
+package com.collection;
+
 import java.util.*;
 
 public class ArrayListExample {

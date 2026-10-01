@@ -28,20 +28,20 @@ public class HashMapDemoForPRactice {
         map.put(15,"o");
         map.put(16,"p");
         System.out.println("removed ? "+map.remove(16,"p".toUpperCase(Locale.ROOT)));
-//        map.put(null, "pavan");
-//        System.out.println(map);
+//        map.put(null, "pavan");  //Throw null pointer exception whenever we're going to operates streams on null keys.
+        System.out.println(map);
 //        map.put(null, "vipul");//now pavan is replaced by vipul
-//        System.out.println(map.getOrDefault("a", "2"));
-//        System.out.println("removed ?   " + map.remove(1));
-        //        map.entrySet()
-//                .stream()
-//                .filter(x -> x.getKey() % 2 == 1)
-//                .toList()
-//                .stream().filter(x -> !x.getValue().equalsIgnoreCase("e"))
-//                .skip(1)
-//                .toList()
-//                .iterator()
-//                .forEachRemaining(a -> System.out.println(a.getKey() + " : " + a.getValue()));
+        System.out.println(map.getOrDefault("a", "2"));
+        System.out.println("removed ?   " + map.remove(1));
+                map.entrySet()
+                .stream()
+                .filter(x -> x.getKey() % 2 == 1)
+                .toList()
+                .stream().filter(x -> !x.getValue().equalsIgnoreCase("e"))
+                .skip(1)
+                .toList()
+                .iterator()
+                .forEachRemaining(a -> System.out.println(a.getKey() + " : " + a.getValue()));
 
 //        for (Map.Entry<Integer, String> entries : map.entrySet()) {
 //            String upperCase = entries.setValue(entries.getValue()).toUpperCase(Locale.ROOT);

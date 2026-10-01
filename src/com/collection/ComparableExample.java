@@ -1,3 +1,5 @@
+package com.collection;
+
 import java.util.*;
 import java.util.function.Consumer;
 
